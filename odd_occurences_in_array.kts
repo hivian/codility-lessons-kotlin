@@ -2,7 +2,7 @@ fun solution(A: IntArray): Int {
     A.sort()
     var count = 0
     var lastNumber = A.first()
-    
+
     for (number in A) {
         if (number != lastNumber) {
             if (count % 2 == 0) {
